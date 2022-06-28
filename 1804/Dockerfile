@@ -97,5 +97,5 @@ RUN rm -Rf ioncube_loaders_lin_aarch64.tar.gz
 # Add volumes for the app and MySql
 VOLUME  ["/var/lib/mysql", "/app" ]
 
-EXPOSE 80 3306
+EXPOSE 80 3306 443
 CMD ["/run.sh"]
